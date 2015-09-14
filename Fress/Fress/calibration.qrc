@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Calibration_x.ui</file>
+    </qresource>
+</RCC>

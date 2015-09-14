@@ -1,0 +1,36 @@
+﻿Compilación iniciada a las 14/07/2012 17:02:36.
+Proyecto "C:\Documents and Settings\Administrador\Escritorio\Copia de SVN\Fress\Fress\Fress.vcxproj" en el nodo 2 (build destinos).
+InitializeBuildStatus:
+  Se creará "Release\Fress.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+CustomBuild:
+  Todas las salidas están actualizadas.
+ClCompile:
+  C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.8.0\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.0\include\QtCore /IC:\Qt\4.8.0\include\QtGui /I.\ /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt fress.cpp
+  fress.cpp
+fress.cpp(1195): warning C4172: devolución de dirección de la variable local o temporal
+  Todas las salidas están actualizadas.
+ResourceCompile:
+  Todas las salidas están actualizadas.
+Link:
+  C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrador\Escritorio\Copia de SVN\Fress\\Fress.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.0\lib qtmain.lib QtCore4.lib QtGui4.lib cv210.lib cvaux210.lib cxcore210.lib cxts210.lib highgui210.lib ml210.lib opencv_ffmpeg210.lib strmiids.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Fress.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Documents and Settings\Administrador\Escritorio\Copia de SVN\Fress\Fress.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrador\Escritorio\Copia de SVN\Fress\Fress.lib" /MACHINE:X86 Release\Fress.res
+  Release\about.obj
+  Release\calibration_x.obj
+  Release\fress.obj
+  Release\qrc_about.obj
+  Release\qrc_calibration.obj
+  Release\qrc_fress.obj
+  Release\moc_about.obj
+  Release\moc_calibration_x.obj
+  Release\moc_fress.obj
+  Release\main.obj
+  Fress.vcxproj -> C:\Documents and Settings\Administrador\Escritorio\Copia de SVN\Fress\Fress.exe
+Manifest:
+  C:\Archivos de programa\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Administrador\Escritorio\Copia de SVN\Fress\\Fress.exe;#1" /manifest Release\Fress.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Se eliminará el archivo "Release\Fress.unsuccessfulbuild".
+  Aplicando tarea Touch a "Release\Fress.lastbuildstate".
+Compilación del proyecto terminada "C:\Documents and Settings\Administrador\Escritorio\Copia de SVN\Fress\Fress\Fress.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:06.71

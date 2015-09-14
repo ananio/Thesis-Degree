@@ -1,0 +1,31 @@
+﻿Compilación iniciada a las 10/05/2012 13:54:42.
+Proyecto "C:\Documents and Settings\Administrador\Escritorio\SVN\Fress\Fress\Fress.vcxproj" en el nodo 2 (build destinos).
+InitializeBuildStatus:
+  Aplicando tarea Touch a "Debug\Fress.unsuccessfulbuild".
+CustomBuild:
+  Todas las salidas están actualizadas.
+ClCompile:
+  Todas las salidas están actualizadas.
+  Todas las salidas están actualizadas.
+ResourceCompile:
+  Todas las salidas están actualizadas.
+Link:
+  C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrador\Escritorio\SVN\Fress\\Fress.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.0\lib qtmain.lib QtCore4.lib QtGui4.lib cv210.lib cvaux210.lib cxcore210.lib cxts210.lib highgui210.lib ml210.lib opencv_ffmpeg210.lib strmiids.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Fress.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Administrador\Escritorio\SVN\Fress\Fress.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrador\Escritorio\SVN\Fress\Fress.lib" /MACHINE:X86 Debug\Fress.res
+  Debug\about.obj
+  Debug\calibration_x.obj
+  Debug\fress.obj
+  Debug\moc_about.obj
+  Debug\moc_calibration_x.obj
+  Debug\moc_fress.obj
+  Debug\qrc_about.obj
+  Debug\qrc_calibration.obj
+  Debug\qrc_fress.obj
+  Debug\main.obj
+qtmain.lib(qtmain_win.obj) : error LNK2038: se detectaron diferencias para '_ITERATOR_DEBUG_LEVEL': el valor '0' no coincide con el valor '2' en about.obj
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: la biblioteca predeterminada'msvcrt.lib' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+C:\Documents and Settings\Administrador\Escritorio\SVN\Fress\\Fress.exe : fatal error LNK1319: diferencias detectadas: 1
+Compilación del proyecto terminada "C:\Documents and Settings\Administrador\Escritorio\SVN\Fress\Fress\Fress.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:01.20
